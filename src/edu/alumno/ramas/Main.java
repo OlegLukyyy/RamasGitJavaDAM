@@ -17,5 +17,6 @@ public class Main {
         System.out.println("amo entornos de desarrollo");
         int suma = bolas.stream().mapToInt(Integer::intValue).sum();
         System.out.println("Suma de principales: " + suma);
+        System.out.println("Cambio realizado desde GitHub");
     }
 }
